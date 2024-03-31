@@ -16,6 +16,6 @@ def convert_nef_to_jpg(input_folder_path, output_folder_path):
     print("Conversion completed!")
 
 # Usage example
-input_folder_path = "/Users/dthakur/Documents/Dinanath/Ujjwal/DCIM/104D5600"
-output_folder_path = "/Users/dthakur/Documents/Dinanath/Ujjwal/JPG"
+input_folder_path = "<source folder>"
+output_folder_path = "<destination folder>"
 convert_nef_to_jpg(input_folder_path, output_folder_path)

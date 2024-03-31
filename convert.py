@@ -12,7 +12,7 @@ def convert_nef_to_jpg(input_folder_path, output_folder_path):
         
         with rawpy.imread(nef_path) as raw:
             rgb = raw.postprocess()
-        imageio.imsave(jpg_path, rgb)
+        imageio.imsave(jpg_path, rgb, quality=90)
     print("Conversion completed!")
 
 # Usage example
